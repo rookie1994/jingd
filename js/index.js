@@ -60,10 +60,8 @@ window.onload=function(){
 		move();
 	}
 
-	var baneBtnL=getClass("left")[0];
-	
+	var baneBtnL=getClass('left',getClass("baneBtn")[0])[0];
 	// for(var i=0;i<bnImg.length;i++){
-		
 		
 		baneBtnL.onclick=function(){
 			// for(var j=0;j<bnImg.length;j++){
@@ -491,7 +489,7 @@ window.onload=function(){
 		animate(img,{marginLeft:-6},500)//鼠标移入向左移动
 		}
 		imgBox.onmouseout=function(){
-		animate(img,{marginLeft:6},500)
+		animate(img,{marginLeft:0},500)
 		}
 	}
 	var tsBox2=getClass("jdtsBox2")[0];

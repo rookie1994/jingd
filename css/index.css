@@ -6,6 +6,14 @@
 body{
 	background:#fff;
 }
+.iconfont{
+	color: #ccc;
+	position: absolute;
+	right:8%;
+	top:0;
+	z-index: 8;
+	transition:all .4s;
+}
 .top{
 	width: 100%;
 	height: 30px;
@@ -22,6 +30,10 @@ body{
 	float:left;
 	width: 95px;
 	height: 30px;
+	position: relative;
+}
+.topCl .slide-box:hover .iconfont{
+	transform:rotate(180deg);
 }
 .slide-box  span{
 	display: block;
@@ -71,6 +83,10 @@ body{
 	line-height: 20px;
 	font-size: 12px;
 }
+.address li a:hover{
+	background: #B61D1D;
+	color: #fff;
+}
 .address .on{
 	background: #B61D1D;
 	color: #fff;
@@ -106,6 +122,9 @@ body{
 	position: relative;
 	z-index: 100;
 }
+.topC2 .fore6:hover .iconfont{
+	transform:rotate(180deg);
+}
 .topC2 .fore6:hover .ph-login{
 	display: block;
 }
@@ -119,6 +138,15 @@ body{
 .topC2 .fore6 .dt{
 	padding-left: 25px;
 	padding-right: 25px;
+	position: relative;
+}
+.topC2 .fore6 .dt .icon-mobile{
+	position: absolute;
+	top:5px;
+	left:7px;
+	width: 15px;
+	height: 20px;
+	background: url(../images/smallIcon.png) 0 0 no-repeat;
 }
 .topC2 .fore6 .ph-login{
 	width: 248px;
@@ -129,6 +157,9 @@ body{
 	display: none;
 	margin-left: -1px;
 }
+.topC2 a:hover{
+	color: #C81623;
+}
 .ph-login img{
 	width: 248px;
 	height: 191px;
@@ -136,6 +167,10 @@ body{
 .topC2 .fore7 .dt{
 	width: 49px;
 	padding-right: 25px;
+	position: relative;
+}
+.topC2 .fore7 .dt:hover .iconfont{
+	transform:rotate(180deg);
 }
 .topC2 .fore7{
 	width: 86px;
@@ -165,6 +200,10 @@ body{
 }
 .topC2 .fore3{
 	width: 86px;
+	position: relative;
+}
+.topC2 .fore3:hover .iconfont{
+	transform:rotate(180deg);
 }
 .topC2 .fore3:hover{
 	background: #fff;
@@ -241,6 +280,7 @@ body{
 }
 .fore8{
 	width: 84px;
+	position: relative;
 }
 .fore8:hover{
 	background: #fff;
@@ -248,6 +288,9 @@ body{
 	border-right: 1px solid #ddd;
 	margin-left: -1px;
 	margin-right: -1px;
+}
+.fore8:hover .iconfont{
+	transform:rotate(180deg);
 }
 .fore8:hover .customer{
 	display: block;
@@ -297,6 +340,10 @@ body{
 }
 .fore9{
 	width: 82px;
+	position: relative;
+}
+.fore9:hover .iconfont{
+	transform:rotate(180deg);
 }
 .fore9:hover{
 	background: #fff;
@@ -309,15 +356,16 @@ body{
 	display: block;
 }
 .fore9 .barBox{
-	width: 1210px;
-	height: 186px;
+	width: 1170px;
+	height: 144px;
 	border:1px solid #ddd;
 	position: relative;
 	top:30px;
 	left: -1127px;
 	background:#fff;
 	z-index: 6;
-	display: none;
+	/*display: none;*/
+	padding: 20px 26px 22px 20px; 
 }
 .fore9 .barBox .left{
 	width: 346px;
@@ -344,9 +392,13 @@ body{
 	width: 280px;
 	height: 150px;
 	border-right: 1px solid #ddd;
-	/*background: red;*/
 	float: left;
 	margin-top: 18px;
+}
+.down-bar dt{
+	font-size: 14px;
+	font-weight: 700px;
+	margin-bottom: 6px;
 }
 #zhuce{
 	color: red;
@@ -444,6 +496,18 @@ input{
 	text-align: center;
 	line-height: 36px;
 	color:#666;
+	position: relative;
+}
+.gouwuche .car-left{
+	position: absolute;
+	background: url(../images/smallIcon.png) 0 -58px no-repeat;
+	top:10px;
+	left: 12px;
+	width: 18px;
+	height: 16px;
+}
+.gouwuche a{
+	font-size: inherit;
 }
 .gouwuche a:hover{
 	color:red;
@@ -3784,11 +3848,10 @@ input{
 .tttjSmallBox img{
 	border:0;
 	margin-top: 20px;
-	margin-left: 16px;
 	width: 100px;
 	height: 100px;
-	
-	
+	position: relative;
+	left: 16px;	
 }
 .tttjSmallBoxT{
 	width: 94px;
@@ -3866,6 +3929,9 @@ input{
 	position: absolute;
 	right: 30px; 
 	bottom: 20px;
+	background: #f8f8f8;
+	padding: 10px 15px 10px 20px;
+	border-radius:5px;
 }
 .tttjBox3_T a:hover{
 	color: #E4393C;
@@ -3931,8 +3997,7 @@ input{
 .footer1_2BTwo{
 	width:auto;
 	height: 168px;
-	
-	background:;
+	background:url(../images/20130330B_1.png) no-repeat -10px -131px;
 	float: left;
 }
 .footer1_2BTwo span{
