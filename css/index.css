@@ -873,7 +873,7 @@ input{
 .SHsmallBoxIcon{
 	width: 25px;
 	height: 25px;
-	background: red;
+	background:#fff;
 	margin: 12px auto 8px;
 }
 .SHsmallBoxIcon img{
@@ -1168,7 +1168,7 @@ input{
 .jdtsBox2small1{
 	width: 200px;
 	height: 200px;
-	background-color: red;
+	background-color:#fff;
 	
 }
 .jdtsBox2small1 img{
@@ -1340,7 +1340,7 @@ input{
 .ope1{
 	width: 330px;
 	height: 475px;
-	background: yellow;
+	background:#fff;
 	position: relative;
 	
 }
@@ -1504,7 +1504,7 @@ input{
 .ope6{
 	width:219px;
 	height: 157px;
-	background:blue;
+	background:#fff;
 	position: absolute;
 	top:0px;
 	right: 1px;
@@ -1519,7 +1519,7 @@ input{
 .ope7{
 	width:219px;
 	height: 157px;
-	background:blue;
+	background:#fff;
 	position: absolute;
 	top:0px;
 	right:221px;
@@ -1534,7 +1534,7 @@ input{
 .ope8{
 	width:219px;
 	height: 157px;
-	background:blue;
+	background:#fff;
 	position: absolute;
 	top:157px;
 	right:221px;
@@ -1549,7 +1549,7 @@ input{
 .ope9{
 	width:219px;
 	height: 157px;
-	background:blue;
+	background:#fff;
 	position: absolute;
 	top:157px;
 	right:1px;
@@ -1564,7 +1564,7 @@ input{
 .ope10{
 	width:219px;
 	height: 157px;
-	background:blue;
+	background:#fff;
 	position: absolute;
 	top:315px;
 	right:221px;
@@ -1579,7 +1579,7 @@ input{
 .ope11{
 	width:219px;
 	height: 157px;
-	background:blue;
+	background:#fff;
 	position: absolute;
 	top:473px;
 	right:221px;
@@ -1594,7 +1594,7 @@ input{
 .ope12{
 	width:219px;
 	height:316px;
-	background:blue;
+	background:#fff;
 	position: absolute;
 	top:314px;
 	right:1px;
@@ -1714,7 +1714,7 @@ input{
 	display: block;
 	width: 130px;
 	height: 130px;
-	background: yellow;
+	background:#fff;
 	margin: 0 auto;
 }
 .nanzhuang-n{
@@ -1819,7 +1819,7 @@ input{
 .mhContentLeft{
 	width: 210px;
 	height: 475px;
-	background:blue;
+	background:#fff;
 	position: relative;
 	float: left;
 }
@@ -2039,7 +2039,7 @@ input{
 .mhContentRight .lunbo-r{
 	width: 219px;
 	height: 296px;
-	background: red;
+	background:#fff;
 	float: left;
 	border-left: 1px solid #EDEDED;
 	border-bottom: 1px solid #EDEDED;
@@ -2047,7 +2047,7 @@ input{
 .mhContentRight .lunbo-r2{
 	width: 219px;
 	height: 176px;
-	background: red;
+	background:#fff;
 	float: left;
 	border-left: 1px solid #EDEDED;
 	border-bottom: 1px solid #EDEDED;
@@ -2141,7 +2141,7 @@ input{
 .mhContentRight .lbb{
 	width: 439px;
 	height: 236px;
-	background: red;
+	background:#fff;
 	float: left;
 	overflow: hidden;
 	position: relative;
@@ -2607,7 +2607,7 @@ input{
 .sjtxRtBox1{
 	width:130px;
 	height: 130px;
-	background: yellow;
+	background:#fff;
 	margin-top: 20px;
 	margin-left: 45px;
 	float: left;
@@ -2737,7 +2737,7 @@ input{
 .jydqLeft{
 	width: 330px;
 	height: 475px;
-	background: red;
+	background:#fff;
 	position: relative;
 	float: left;
 }
@@ -3012,7 +3012,7 @@ input{
 .jydqBox3{
 	width: 219px;
 	height: 236px;
-	background: blue;
+	background:#fff;
 	float: left;
 	border-bottom:1px solid #ededed;
 	border-right:1px solid #ededed;
@@ -3126,13 +3126,13 @@ input{
 	display: block;
 	width: 130px;
 	height: 130px;
-	background-color: red;
+	background-color:#fff;
 	margin: 20px auto;
 }
 .dnsm-lunbo{
 	width: 439px;
 	height: 236px;
-	background: blue;
+	background:#fff;
 	overflow: hidden;
 	float: left;
 	border-right: 1px solid #EDEDED;
@@ -3768,7 +3768,7 @@ input{
 .shfwLeftTwo1{
 	width: 196px;
 	height: 117px;
-	background: yellow;
+	background:#fff;
 	float: left;
 	border-bottom: 1px solid #ededed;
 	border-right: 1px solid #ededed;
