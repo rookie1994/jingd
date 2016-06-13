@@ -497,6 +497,7 @@ input{
 	line-height: 36px;
 	color:#666;
 	position: relative;
+	cursor: pointer;
 }
 .gouwuche .car-left{
 	position: absolute;
@@ -585,9 +586,9 @@ input{
 	background: #c81623;
 	float: left;
 }
-.bannerLeft1:hover .subBox{
+/*.bannerLeft1:hover .subBox{
 	display: block;
-} 
+} */
 .bannerLeft1 .subBox{
 	width: 999px;
 	height: 465px;
@@ -1155,7 +1156,9 @@ input{
 	background:#f7f7f7;
 	float: left;
 	position: relative;
-	
+}
+.bgcl{
+	background: #F7F7F7;
 }
 .jdtsBox1small img{
 	width: 100px;
@@ -3956,6 +3959,18 @@ input{
 	margin: 0 auto;
 
 }
+.footer1_1 .footer1_1B:nth-child(1){
+	background: url(../images/service1.png) center no-repeat ;
+}
+.footer1_1 .footer1_1B:nth-child(2){
+	background: url(../images/service2.png) center no-repeat ;
+}
+.footer1_1 .footer1_1B:nth-child(3){
+	background: url(../images/service3.png) center no-repeat ;
+}
+.footer1_1 .footer1_1B:nth-child(4){
+	background: url(../images/service4.png) center no-repeat ;
+}
 .footer1_1B{
 	width: 302px;
 	height: 54px;
@@ -4190,7 +4205,9 @@ input{
 	width:1600px;
 	height: 239px;
 }
-
+.shlb img{
+	border-top: none!important;
+}
 .shlunbo-b{
 	width: 395px;
 	height: 239px;
@@ -4310,13 +4327,13 @@ input{
 	width: 30px;
 	height: 330px;
 	cursor:pointer;
+	display: none;
 }
 .gdxl li{
 	width: 30px;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	border-bottom: 1px dotted  #ccc;
 }
 .gdxl .num{
 	width: 100%;
@@ -4325,6 +4342,8 @@ input{
 	text-align: center;
 	line-height:30px;
 	font-size: 14px;
+	color: #625351;
+	font-family: Arial;
 }
 .gdxl .fonts{
 	width: 100%;
@@ -4333,14 +4352,6 @@ input{
 	text-align: center;
 	line-height:30px;
 	display: none;
-	color: #fff;
-	background:#ca0003;
+	color:#c81623;
 	font-size: 12px;
 }
-/*.gdxl li:hover .num{
-	display:none;
-}
-.gdxl li:hover .fonts{
-	display:block;
-	background:#ca0003;
-}*/

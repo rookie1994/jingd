@@ -4,7 +4,7 @@ window.onload=function(){
 	var bnBtn=getClass("kogjian1_",getClass("kongjian1")[0]);
 	// console.log(bnBtn);
 	var num=0;
-	var rr=setInterval(move,2000);
+	var rr=setInterval(move,3000);
 	bnImg[0].style.opacity=1; //下标为0的 也就是第一张图的透明度不设置 默认显示第一张
 	function move(){ // 函数当作参数
 			num++;
@@ -12,10 +12,12 @@ window.onload=function(){
 				num=0;
 			}
 			for(var i=0;i<bnImg.length;i++){
-				bnImg[i].style.opacity=0;
+				// bnImg[i].style.opacity=0;
+				animate(bnImg[i],{opacity:0},300);
 				bnBtn[i].style.background="";
 			}
-			bnImg[num].style.opacity=1;
+			// bnImg[num].style.opacity=1;
+			animate(bnImg[num],{opacity:1},1000)
 			bnBtn[num].style.background="#b61b1f";
 
 	}
@@ -957,14 +959,14 @@ tjWheel.onmouseout=function(){
 		// 	nums[this.index].style.display="none";
 		// 	Fonts[this.index].style.display="block";
 		}
-		ovBtns[i].onmouseover=function(){
-			for(var j=0;j<ovBtns.length;j++){
-				nums[j].style.display="block";
-				Fonts[j].style.display="none";
-			}
-			nums[this.index].style.display="none";
-			Fonts[this.index].style.display="block";
-		}
+		// ovBtns[i].onmouseover=function(){
+		// 	for(var j=0;j<ovBtns.length;j++){
+		// 		nums[j].style.display="block";
+		// 		Fonts[j].style.display="none";
+		// 	}
+		// 	nums[this.index].style.display="none";
+		// 	Fonts[this.index].style.display="block";
+		// }
 	}
 window.onscroll=function(){	
 	var sctop=document.body.scrollTop;
@@ -978,11 +980,13 @@ window.onscroll=function(){
 			Fonts[i].style.display="block";
 		}
 	}
+	var sideNav=getClass('gdxl')[0];
+	if(document.body.scrollTop>1474&&document.body.scrollTop<8465){
+		sideNav.style.display="block";
+	}else{
+		sideNav.style.display="none";
+	}
 }
-
-
-
-
 }	
 
 
